@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "GameFont";
+  src: url('./assets/SuperPixel-m2L8j.ttf') format('truetype');
+}
+
+body {
+  font-family: 'GameFont', sans-serif;
+  background-color: #080808f3;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
