@@ -1,16 +1,11 @@
-import { Typography } from "@mui/material";
-
 const TextAvatar = () => {
-  return (
-    <Typography
-      variant="h5"
-      component="text"
-      style={{ fontFamily: 'GameFont', color: 'white' }}
-    >
-      Hola, soy Gojo Satoru. <br />
-      Full-Stack Developer 
-    </Typography>
-  );
+    return (
+        <div className="text-card">
+            <h1>I'm Raiku Welcome to My Web Personal</h1>
+            <p>Full Stack Developer & Blockchain Developer</p>
+            <footer></footer>
+        </div>
+    );
 };
 
 export default TextAvatar;
